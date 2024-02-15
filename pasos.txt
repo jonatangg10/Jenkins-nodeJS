@@ -1,3 +1,8 @@
+// Si tienes la imagen ya descargada y corriendo en un contenedor, debes pararla para actualizarla.
+docker ps
+docker rm -f  id_contenedor
+docker ps // verificar que dejo de correr el contenedor
+
 1. Correr el build en Jenkins
 2. Mirar que no haya errores en el Build
 3. Tener configurado Docker Login
