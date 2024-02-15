@@ -4,7 +4,7 @@
 4. cd /.docker/
 5. nano config.json
 6. Verificar si la usuario y contraseña estan en base64
-5. echo -n 'jonatangg10:1003510994Js' | base64
+5. echo -n 'usuario:contraseña' | base64
 6. editar config.json
 7. docker pull jonatangg10/nodejsapp (Para descargar la imagen)
 8. docker run -p 3000:3000 -d --name nodejsapp jonatangg10/nodejsapp (Para inicializar la imagen)
