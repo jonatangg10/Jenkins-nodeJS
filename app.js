@@ -1,6 +1,9 @@
 var express = require('express');
 var app = express();
 
+
+app.use(express.static('public'));
+
 app.get('/', function (req, res) {
   // res.send('Hola grupo Devops, Soy Jonatan Gutierrez y esto es una prueba de Jenkins - Node.js - github - docker.hub');
   res.sendFile(__dirname + '/index.html')
