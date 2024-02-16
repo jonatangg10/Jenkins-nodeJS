@@ -5,7 +5,7 @@ docker ps
 docker rm -f  id_contenedor
 docker ps
 
-// verificar que dejo de correr el contenedor
+// verificar que el contenedor PARO
 
 // Empieza el proceso
 
