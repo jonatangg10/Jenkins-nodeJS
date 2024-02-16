@@ -10,8 +10,8 @@ docker ps
 // Empieza el proceso
 
 1. Correr el build en Jenkins
-2. Mirar que no haya errores en el Build
-3. Tener configurado Docker Login
+2. Mirar que no haya errores en el log del Build
+3. Tener configurado Docker Login (docker login)
 4. cd /.docker/
 5. nano config.json
 6. Verificar si la usuario y contraseña estan en base64
