@@ -1,5 +1,6 @@
 // Si tienes la imagen ya descargada y corriendo en un contenedor, debes pararla para actualizarla.
 
+docker images
 docker ps
 docker rm -f  id_contenedor
 docker ps
