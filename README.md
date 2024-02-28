@@ -4,7 +4,6 @@
 <p align="center"><b>Si se puede inmaginar, se puede programar</b></p>
 <hr>
 <p align="center"><i>¡ Sigue los pasos en el archivo pasos.txt !</i></p>
-# Actualiza los paquetes del sistema operativo
 Processing provided DSL script
 ERROR: script not yet approved for use
 Finished: FAILURE
