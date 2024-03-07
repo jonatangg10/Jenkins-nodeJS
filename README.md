@@ -15,3 +15,7 @@ docker run -p 8080:8080 -p 50000:50000 -v /var/run/docker.sock:/var/run/docker.s
 
 docker: Error response from daemon: driver failed programming external connectivity on endpoint pedantic_ritchie (a358a5ad2a05a2d658fac25af0fd6c07fd22dd1d99fbff9a1085688070d9153c): Bind for 0.0.0.0:50000 failed: port is already allocated.
 ERRO[0000] error waiting for container:
+
+docker run -p 8080:8080 -p 50000:50001 -v /var/run/docker.sock:/var/run/docker.sock jenkins/jenkins:lts
+docker: Error response from daemon: driver failed programming external connectivity on endpoint hardcore_hertz (3464534e7007015e1c0acc538a3cc585484f23e85abd5e4168a88860eb71eda3): Bind for 0.0.0.0:50000 failed: port is already allocated.
+ERRO[0000] error waiting for container:
