@@ -8,3 +8,6 @@
 ERROR: Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
 Build step 'Docker Build and Publish' marked build as failure
 Finished: FAILURE
+
+
+docker run -p 8080:8080 -p 50000:50000 -v /var/run/docker.sock:/var/run/docker.sock jenkins/jenkins:lts
